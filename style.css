@@ -6,7 +6,7 @@ body {
     margin: 0px;
     background-color: #010101;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='922' height='110.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23050505' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
-    max-width: 900px;       /* largura máxima do conteúdo no centro */
+    max-width: 1200px;       /* largura máxima do conteúdo no centro */
     margin: 2rem auto;
 }
 
@@ -28,7 +28,7 @@ header{
 }
 
 h1{
-    font-family:Geneva, Tahoma, sans-serif
+     font-family:  JetBrains Mono;
 }
 
 h3{
@@ -37,7 +37,7 @@ h3{
 
 h4{
     margin: 0px;
-    max-width: 50ch;
+    max-width: 80ch;
 }
 
 p{
@@ -46,12 +46,14 @@ p{
 
 
 #destaque{
+    align-items: center;
     font-family: JetBrains Mono;
     color: aliceblue;
-    display: inline-block;
-    padding: 8px;
+    display: inline-flex;
+    padding: 0px 10px;
     border-radius: 50px;
-    background-color: #302d2d ;
+    background-color: #070707;
+    font-size:small;
 }
 
 .estilo_vermelho{
@@ -76,20 +78,22 @@ p{
 
 #descricao{
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .quem_eu_sou{
     margin-top:  0px;
     display: flex;
     align-items: center;
-    background-color: #302d2d;
+    background-color: #131111;
     max-width: max-content;
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
     gap: 30px;
     min-width: 440px;
     min-height: 50px;
- 
 }
 
 .skill_pai{
@@ -101,5 +105,29 @@ p{
 .skill{
     display: inline-block;
     border-radius: 10px;
-    background-color: #302d2d ;
+    background-color: #0f0d0d ;
+}
+
+.button_red{
+    background-color: rgb(209, 14, 14);
+    text-decoration: none;
+    color: aliceblue;
+    padding:  9px;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: rgba(255, 0, 0, 0);
+    text-decoration: none;
+    color: aliceblue;
+    padding:  8px;
+    border-radius: 5px;
+    border: 2px solid #ffffff61;
+    cursor: pointer;
+
+   transition: transform  0.3s ease;
+}
+
+.button:hover{
+    transform: scale(1.1);
 }
