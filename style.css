@@ -83,7 +83,7 @@ p{
     gap: 20px;
 }
 
-.quem_eu_sou{
+.icon{
     margin-top:  0px;
     display: flex;
     align-items: center;
@@ -94,6 +94,12 @@ p{
     gap: 30px;
     min-width: 440px;
     min-height: 50px;
+}
+
+.icon svg{
+  width: 2rem;
+  height: 2rem;
+  display: block;
 }
 
 .skill_pai{
