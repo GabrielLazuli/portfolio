@@ -2,13 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 
-body{
-    margin: 0px
+body {
+  background-color: #040303;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='922' height='110.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23050505' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+
 main{
+        color: aliceblue;
         margin-top: 50px;
         font-family: JetBrains Mono; 
+        max-width: 900px;       /* largura máxima do conteúdo no centro */
+        margin: 2rem auto;
 }
 
 header{
@@ -27,6 +33,11 @@ h3{
     margin: 0px;
 }
 
+h4{
+    margin: 0px;
+    max-width: 50ch;
+}
+
 p{
     max-width:  60ch;
 }
@@ -34,10 +45,8 @@ p{
 
 #destaque{
     font-family: JetBrains Mono;
-
     color: aliceblue;
     display: inline-block;
-    margin: 20px;
     padding: 8px;
     border-radius: 50px;
     background-color: #302d2d ;
@@ -52,6 +61,21 @@ p{
     gap: 20px;
 }
 
+#sobre{
+    display: flex;
+    gap: 60px;
+}
+
+#experiencias{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#descricao{
+    margin-top: 60px;
+}
+
 .quem_eu_sou{
     margin-top:  0px;
     display: flex;
@@ -60,7 +84,10 @@ p{
     max-width: max-content;
     border-radius: 10px;
     padding: 5px 10px 5px 10px;
-    gap: 20px;
+    gap: 30px;
+    min-width: 440px;
+    min-height: 50px;
+ 
 }
 
 .skill_pai{
