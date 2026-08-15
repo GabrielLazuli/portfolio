@@ -65,6 +65,10 @@ p{
     gap: 20px;
 }
 
+#minhas_skills svg{
+    color: red;
+}
+
 #sobre{
     display: flex;
     gap: 60px;
@@ -100,7 +104,11 @@ p{
   width: 2rem;
   height: 2rem;
   display: block;
+  color: red;
 }
+
+
+
 
 .skill_pai{
     display: flex;
@@ -128,7 +136,7 @@ p{
     color: aliceblue;
     padding:  8px;
     border-radius: 5px;
-    border: 2px solid #ffffff61;
+    border: 2px solid #12101061;
     cursor: pointer;
 
    transition: transform  0.3s ease;
