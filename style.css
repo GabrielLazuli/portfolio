@@ -1,147 +1,187 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 
 body {
-    margin: 0px;
-    background-color: #010101;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='922' height='110.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23050505' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
-    max-width: 1200px;       /* largura máxima do conteúdo no centro */
-    margin: 2rem auto;
+  margin: 0px;
+  background-color: #010101;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='922' height='110.6' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23050505' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  max-width: 1200px; /* largura máxima do conteúdo no centro */
+  margin: 2rem auto;
 }
 
-
-main{
-        color: aliceblue;
-        margin-top: 50px;
-        font-family: JetBrains Mono; 
-        max-width: 900px;       /* largura máxima do conteúdo no centro */
-        margin: 2rem auto;
+main {
+  color: aliceblue;
+  margin-top: 50px;
+  font-family: JetBrains Mono;
+  max-width: 900px; /* largura máxima do conteúdo no centro */
+  margin: 2rem auto;
 }
 
-header{
-    padding: 20px 20px;
-    font-family: JetBrains Mono;
-    color: aliceblue;
-    background-color: rgb(0, 0, 0);
-    min-width: 100vh;
+header {
+  padding: 20px 20px;
+  font-family: JetBrains Mono;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  min-width: 100vh;
 }
 
-h1{
-     font-family:  JetBrains Mono;
+h1 {
+  font-family: JetBrains Mono;
 }
 
-h3{
-    margin: 0px;
+h2 {
+  margin: 0px;
 }
 
-h4{
-    margin: 0px;
-    max-width: 80ch;
+h3 {
+  margin: 0px;
 }
 
-p{
-    max-width:  60ch;
+h4,
+h5 {
+  margin: 0px;
+  max-width: 50ch;
 }
 
-
-#destaque{
-    align-items: center;
-    font-family: JetBrains Mono;
-    color: aliceblue;
-    display: inline-flex;
-    padding: 0px 10px;
-    border-radius: 50px;
-    background-color: #070707;
-    font-size:small;
+h5 {
+  font-style: normal;
 }
 
-.estilo_vermelho{
-    color: red;
+p {
+  max-width: 60ch;
 }
 
-#minhas_skills{
-    display: flex; 
-    gap: 20px;
+#destaque {
+  align-items: center;
+  font-family: JetBrains Mono;
+  color: aliceblue;
+  display: inline-flex;
+  padding: 0px 10px;
+  border-radius: 50px;
+  background-color: #070707;
+  font-size: small;
 }
 
-#minhas_skills svg{
-    color: red;
+.estilo_vermelho {
+  color: red;
 }
 
-#sobre{
-    display: flex;
-    gap: 60px;
+#minhas_skills {
+  display: flex;
+  gap: 20px;
 }
 
-#experiencias{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+#minhas_skills svg {
+  color: red;
 }
 
-#descricao{
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+#sobre {
+  display: flex;
+  gap: 60px;
 }
 
-.icon{
-    margin-top:  0px;
-    display: flex;
-    align-items: center;
-    background-color: #131111;
-    max-width: max-content;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-    gap: 30px;
-    min-width: 440px;
-    min-height: 50px;
+#experiencias {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.icon svg{
+#descricao {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.icon {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  background-color: #131111;
+  max-width: max-content;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  gap: 30px;
+  min-width: 440px;
+  min-height: 50px;
+}
+
+.icon svg {
   width: 2rem;
   height: 2rem;
   display: block;
   color: red;
 }
 
-
-
-
-.skill_pai{
-    display: flex;
-    gap: 20px; 
-    align-items: center;
+.skill_pai {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.skill{
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #0f0d0d ;
+.skill {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #0f0d0d;
 }
 
-.button_red{
-    background-color: rgb(209, 14, 14);
-    text-decoration: none;
-    color: aliceblue;
-    padding:  9px;
-    border-radius: 5px;
+.button_red {
+  background-color: rgb(209, 14, 14);
+  text-decoration: none;
+  color: aliceblue;
+  padding: 9px;
+  border-radius: 5px;
 }
 
-.button{
-    background-color: rgba(255, 0, 0, 0);
-    text-decoration: none;
-    color: aliceblue;
-    padding:  8px;
-    border-radius: 5px;
-    border: 2px solid #12101061;
-    cursor: pointer;
+.button {
+  align-items: center;
+  background-color: rgba(6, 6, 6, 0.919);
+  text-decoration: none;
+  color: rgb(240, 248, 255);
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #362f2f61;
+  cursor: pointer;
 
-   transition: transform  0.3s ease;
+  transition: transform 0.2s ease;
 }
 
-.button:hover{
-    transform: scale(1.1);
+.button:hover {
+  transform: scale(1.05);
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.card-col {
+  flex: 1 1 calc(25% - 20px);
+  min-width: 240px;
+}
+
+.card-projeto {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #0f0d0d;
+  border: 1px solid #2a2a2a;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+}
+
+ul {
+  margin: 0px;
+  display: flex;
+  list-style: none;
 }
