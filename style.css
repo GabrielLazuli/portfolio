@@ -93,6 +93,11 @@ p {
   gap: 20px;
 }
 
+#contatos{
+    gap: 20px;
+    display:inline-flex;
+}
+
 .icon {
   margin-top: 0px;
   display: flex;
@@ -146,9 +151,28 @@ p {
   transition: transform 0.2s ease;
 }
 
+.button_habilidades{
+  align-items: center;
+  background-color: rgba(6, 6, 6, 0.919);
+  text-decoration: none;
+  color: rgb(240, 248, 255);
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #362f2f61;
+  cursor: pointer;
+
+  transition: transform 0.2s ease;
+}
+
 .button:hover {
   transform: scale(1.05);
 }
+
+.button_habilidades:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.049);   
+}
+
 
 .habilidades {
   display: flex;
@@ -185,3 +209,4 @@ ul {
   display: flex;
   list-style: none;
 }
+
