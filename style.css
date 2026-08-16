@@ -24,6 +24,9 @@ footer{
   max-width: 900px; /* largura máxima do conteúdo no centro */
   margin: 2rem auto;
   background-color: #010101;
+  display: flex; 
+  align-items: center;
+  gap: 500px;
 }
 
 header {
