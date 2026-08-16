@@ -17,6 +17,15 @@ main {
   margin: 2rem auto;
 }
 
+footer{
+  color: aliceblue;
+  margin-top: 50px;
+  font-family: JetBrains Mono;
+  max-width: 900px; /* largura máxima do conteúdo no centro */
+  margin: 2rem auto;
+  background-color: #010101;
+}
+
 header {
   padding: 20px 20px;
   font-family: JetBrains Mono;
