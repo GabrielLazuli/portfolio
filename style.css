@@ -53,7 +53,7 @@ h3 {
 h4,
 h5 {
   margin: 0px;
-  max-width: 50ch;
+  max-width: 30ch;
 }
 
 h5 {
@@ -91,6 +91,10 @@ p {
 #sobre {
   display: flex;
   gap: 60px;
+
+  flex-wrap: wrap;
+
+  align-items: stretch;
 }
 
 #experiencias {
@@ -146,7 +150,8 @@ p {
 }
 
 .button_red {
-  background-color: rgb(209, 14, 14);
+  background-color: red;
+
   text-decoration: none;
   color: aliceblue;
   padding: 9px;
